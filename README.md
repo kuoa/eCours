@@ -1,2 +1,3 @@
 # eCours
-Software Engineering
+4I502-IL Software Engineering project.
+

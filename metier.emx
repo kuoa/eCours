@@ -97,6 +97,19 @@
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_tJk4UYlTEeaSwdPzH00ZkQ" visible="false" type="StructureCompartment"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tJjDIYlTEeaSwdPzH00ZkQ" x="13068" y="3432"/>
       </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_v6S4YI51Eeaiq7DFp4zTpA" element="_v6H5QI51Eeaiq7DFp4zTpA" fontName="Noto Sans" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_v6UGgI51Eeaiq7DFp4zTpA" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_v6UGgY51Eeaiq7DFp4zTpA" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6VUoI51Eeaiq7DFp4zTpA" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6VUoY51Eeaiq7DFp4zTpA" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_v6VUoo51Eeaiq7DFp4zTpA" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_v6V7sI51Eeaiq7DFp4zTpA" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_v6WiwI51Eeaiq7DFp4zTpA" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_v6WiwY51Eeaiq7DFp4zTpA" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_v6XJ0I51Eeaiq7DFp4zTpA" visible="false" type="StructureCompartment"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v6S4YY51Eeaiq7DFp4zTpA" x="7972" y="15028"/>
+      </children>
       <element xsi:nil="true"/>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3fMBQIlTEeaSwdPzH00ZkQ" element="_3fEFcIlTEeaSwdPzH00ZkQ" source="_cSveEIlTEeaSwdPzH00ZkQ" target="_tJjDIIlTEeaSwdPzH00ZkQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_3fMoUIlTEeaSwdPzH00ZkQ" type="NameLabel">
@@ -646,6 +659,38 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_UZ0kkIlUEeaSwdPzH00ZkQ" memberEnd="_UZ1LoIlUEeaSwdPzH00ZkQ _UZ3A0IlUEeaSwdPzH00ZkQ"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_dyMpMIlUEeaSwdPzH00ZkQ" memberEnd="_dyN3UIlUEeaSwdPzH00ZkQ _dyPsgIlUEeaSwdPzH00ZkQ"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_jUWqMIlUEeaSwdPzH00ZkQ" memberEnd="_jUXRQIlUEeaSwdPzH00ZkQ _jUYfYIlUEeaSwdPzH00ZkQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_v6H5QI51Eeaiq7DFp4zTpA" name="ECours">
+    <ownedOperation xmi:id="_FnGjEI52Eeaiq7DFp4zTpA" name="passerQcm">
+      <ownedParameter xmi:id="_d7FrYI52Eeaiq7DFp4zTpA" name="titreUe">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_d7GScI52Eeaiq7DFp4zTpA" name="titreChapitres">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_d7G5gI52Eeaiq7DFp4zTpA" name="nombreQuestions">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_qQEEAI52Eeaiq7DFp4zTpA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_TTTtAI55Eeaiq7DFp4zTpA" name="vérifierChapitres" visibility="private"/>
+    <ownedOperation xmi:id="_XLFP0I55Eeaiq7DFp4zTpA" name="vérifierNbQuestions" visibility="private"/>
+    <ownedOperation xmi:id="_7ddcwI55Eeaiq7DFp4zTpA" name="répondreQuestion">
+      <ownedParameter xmi:id="_2_XrYI56Eeaiq7DFp4zTpA" name="numQuestion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_2_YScI56Eeaiq7DFp4zTpA" name="reponse">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_2_YScY56Eeaiq7DFp4zTpA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_-2M6MI55Eeaiq7DFp4zTpA" name="vérifierRéponse" visibility="private"/>
+    <ownedOperation xmi:id="_Vq7PMI56Eeaiq7DFp4zTpA" name="afficherRésultat" visibility="private"/>
+    <ownedOperation xmi:id="_oXZ1EI59Eeaiq7DFp4zTpA" name="générerQuestion" visibility="private"/>
+  </packagedElement>
   <profileApplication xmi:id="_VIRQ5IlSEeaSwdPzH00ZkQ">
     <eAnnotations xmi:id="_VIRQ5YlSEeaSwdPzH00ZkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>

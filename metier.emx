@@ -108,7 +108,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_IaYJEI7QEeaaUM0Gc0WNDg" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_IaYJEY7QEeaaUM0Gc0WNDg" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_IaZXMI7QEeaaUM0Gc0WNDg" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IaVFwY7QEeaaUM0Gc0WNDg" x="-924" y="-792" width="6027" height="7378"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IaVFwY7QEeaaUM0Gc0WNDg" x="-924" y="-792" width="6027" height="9362"/>
       </children>
       <element xsi:nil="true"/>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3fMBQIlTEeaSwdPzH00ZkQ" element="_3fEFcIlTEeaSwdPzH00ZkQ" source="_cSveEIlTEeaSwdPzH00ZkQ" target="_tJjDIIlTEeaSwdPzH00ZkQ" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -660,18 +660,18 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_dyMpMIlUEeaSwdPzH00ZkQ" memberEnd="_dyN3UIlUEeaSwdPzH00ZkQ _dyPsgIlUEeaSwdPzH00ZkQ"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_jUWqMIlUEeaSwdPzH00ZkQ" memberEnd="_jUXRQIlUEeaSwdPzH00ZkQ _jUYfYIlUEeaSwdPzH00ZkQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_IaQNQI7QEeaaUM0Gc0WNDg" name="eCours" visibility="private">
-    <ownedOperation xmi:id="_wkYu4I7QEeaaUM0Gc0WNDg" name="ouvrirGérerChapitre">
+    <ownedOperation xmi:id="_wkYu4I7QEeaaUM0Gc0WNDg" name="ouvrirGererChapitre">
       <ownedParameter xmi:id="_51Lk0I7QEeaaUM0Gc0WNDg" name="Parameter1" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:id="_SMAlwI7REeaaUM0Gc0WNDg" name="afficheGérerChapitre" visibility="private"/>
-    <ownedOperation xmi:id="_XdSSII7REeaaUM0Gc0WNDg" name="ouvrirCréerChapitre">
+    <ownedOperation xmi:id="_SMAlwI7REeaaUM0Gc0WNDg" name="afficheGererChapitre" visibility="private"/>
+    <ownedOperation xmi:id="_XdSSII7REeaaUM0Gc0WNDg" name="ouvrirCreerChapitre">
       <ownedParameter xmi:id="_ko_ecI7REeaaUM0Gc0WNDg" name="Parameter1" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:id="_d2QmYI7REeaaUM0Gc0WNDg" name="afficherCréerChapitre" visibility="private"/>
+    <ownedOperation xmi:id="_d2QmYI7REeaaUM0Gc0WNDg" name="afficherCreerChapitre" visibility="private"/>
     <ownedOperation xmi:id="_o9Z58I7REeaaUM0Gc0WNDg" name="créerChapitre">
       <ownedParameter xmi:id="_0ET88I7REeaaUM0Gc0WNDg" name="nomChapitre">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -718,6 +718,39 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:id="_LtFJ0JCaEeaLNP_-wukhBA" name="editerUE">
+      <ownedParameter xmi:id="_fvFqIJCbEeaLNP_-wukhBA" name="in"/>
+      <ownedParameter xmi:id="_nkBwoJCcEeaLNP_-wukhBA" name="Parameter1" isOrdered="true" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_zoLJ4JCaEeaLNP_-wukhBA" name="editerNom">
+      <ownedParameter xmi:id="_Htzl8JCcEeaLNP_-wukhBA" name="nom">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_jQAWsJCcEeaLNP_-wukhBA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KbZqEJCbEeaLNP_-wukhBA" name="verifierNom">
+      <ownedParameter xmi:id="_b9OFkJCcEeaLNP_-wukhBA" name="nom">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZzU5gJCfEeaLNP_-wukhBA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_r78WoJCdEeaLNP_-wukhBA" name="afficheCreerUE" visibility="private">
+      <ownedParameter xmi:id="_4JU5gJCdEeaLNP_-wukhBA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qyQVQJCeEeaLNP_-wukhBA" name="espaceEnseignant" visibility="private">
+      <ownedParameter xmi:id="_y5Y0cJCeEeaLNP_-wukhBA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_skZ9cJCgEeaLNP_-wukhBA" name="afficherMessageErreur" visibility="private"/>
   </packagedElement>
   <profileApplication xmi:id="_VIRQ5IlSEeaSwdPzH00ZkQ">
     <eAnnotations xmi:id="_VIRQ5YlSEeaSwdPzH00ZkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">

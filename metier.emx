@@ -751,6 +751,82 @@
       </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_skZ9cJCgEeaLNP_-wukhBA" name="afficherMessageErreur" visibility="private"/>
+    <ownedOperation xmi:id="_sRqfcJDTEeaqquCasSxMyA" name="passerQcm">
+      <ownedParameter xmi:id="_sRqfcZDTEeaqquCasSxMyA" name="titreUe">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRqfcpDTEeaqquCasSxMyA" name="titreChapitres">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRqfc5DTEeaqquCasSxMyA" name="nombreQuestions">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRqfdJDTEeaqquCasSxMyA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sRrGgJDTEeaqquCasSxMyA" name="vérifierChapitres" visibility="private"/>
+    <ownedOperation xmi:id="_sRrGgZDTEeaqquCasSxMyA" name="vérifierNbQuestions" visibility="private"/>
+    <ownedOperation xmi:id="_sRrtkJDTEeaqquCasSxMyA" name="répondreQuestion">
+      <ownedParameter xmi:id="_sRrtkZDTEeaqquCasSxMyA" name="numQuestion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRrtkpDTEeaqquCasSxMyA" name="reponse">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRrtk5DTEeaqquCasSxMyA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sRrtlJDTEeaqquCasSxMyA" name="vérifierRéponseQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRrtlZDTEeaqquCasSxMyA" name="afficherRésultatQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRrtlpDTEeaqquCasSxMyA" name="générerQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRsUoJDTEeaqquCasSxMyA" name="créerQuestion">
+      <ownedParameter xmi:id="_sRsUoZDTEeaqquCasSxMyA" name="idUe">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUopDTEeaqquCasSxMyA" name="idChapitre">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUo5DTEeaqquCasSxMyA" name="texte">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUpJDTEeaqquCasSxMyA" name="propositions">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUpZDTEeaqquCasSxMyA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sRsUppDTEeaqquCasSxMyA" name="modifierQuestion">
+      <ownedParameter xmi:id="_sRsUp5DTEeaqquCasSxMyA" name="idQuestion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUqJDTEeaqquCasSxMyA" name="texte">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUqZDTEeaqquCasSxMyA" name="propositions">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRsUqpDTEeaqquCasSxMyA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sRs7sJDTEeaqquCasSxMyA" name="supprimerQuestion">
+      <ownedParameter xmi:id="_sRs7sZDTEeaqquCasSxMyA" name="idQuestion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_sRs7spDTEeaqquCasSxMyA" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_sRs7s5DTEeaqquCasSxMyA" name="afficherRésultatQcm" visibility="private"/>
+    <ownedOperation xmi:id="_sRs7tJDTEeaqquCasSxMyA" name="vérifierTexteQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRtiwJDTEeaqquCasSxMyA" name="vérifierNbProposition" visibility="private"/>
+    <ownedOperation xmi:id="_sRtiwZDTEeaqquCasSxMyA" name="vérifierFormatPropositions" visibility="private"/>
+    <ownedOperation xmi:id="_sRtiwpDTEeaqquCasSxMyA" name="afficherConfirmationCréationQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRtiw5DTEeaqquCasSxMyA" name="afficherConfirmationModificationQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_sRuJ0JDTEeaqquCasSxMyA" name="afficherConfirmationSuppressionQuestion" visibility="private"/>
   </packagedElement>
   <profileApplication xmi:id="_VIRQ5IlSEeaSwdPzH00ZkQ">
     <eAnnotations xmi:id="_VIRQ5YlSEeaSwdPzH00ZkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">

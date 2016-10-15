@@ -2211,39 +2211,23 @@
         </eAnnotations>
         <lifeline xmi:id="_BtuOB5DTEeaqquCasSxMyA" name="etudiant" represents="_BtvcYpDTEeaqquCasSxMyA" coveredBy="_BtuOCZDTEeaqquCasSxMyA _BtuOFZDTEeaqquCasSxMyA"/>
         <lifeline xmi:id="_BtuOCJDTEeaqquCasSxMyA" name="eCours" represents="_BtvcY5DTEeaqquCasSxMyA" coveredBy="_BtuOCpDTEeaqquCasSxMyA _BtuOC5DTEeaqquCasSxMyA _BtuOFJDTEeaqquCasSxMyA _BtuODJDTEeaqquCasSxMyA _BtuODZDTEeaqquCasSxMyA _BtuODpDTEeaqquCasSxMyA _BtuOD5DTEeaqquCasSxMyA _BtuOEJDTEeaqquCasSxMyA _BtuOEZDTEeaqquCasSxMyA _BtuOEpDTEeaqquCasSxMyA _BtuOE5DTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOCZDTEeaqquCasSxMyA" covered="_BtuOB5DTEeaqquCasSxMyA" message="_BtuOF5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOCpDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOF5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOCZDTEeaqquCasSxMyA" covered="_BtuOB5DTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_BtuOF5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOCpDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_BtuOF5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtuOC5DTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" start="_BtuOCpDTEeaqquCasSxMyA" finish="_BtuOFJDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuODJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOFpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TTWJQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent2?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuODZDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOFpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TThIYI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent2?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuODJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_bRtGYJLsEeajQpByLehgUQ" message="_BtuOFpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuODZDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_bRu7kJLsEeajQpByLehgUQ" message="_BtuOFpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtuODpDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" start="_BtuODZDTEeaqquCasSxMyA" finish="_BtuOD5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtuOD5DTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" execution="_BtuODpDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOEJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOI5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent3?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOEZDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOI5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24Y55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent3?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOEJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_cJpbAJLsEeajQpByLehgUQ" message="_BtuOI5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOEZDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_cJpbAZLsEeajQpByLehgUQ" message="_BtuOI5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtuOEpDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" start="_BtuOEZDTEeaqquCasSxMyA" finish="_BtuOE5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtuOE5DTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" execution="_BtuOEpDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOFJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" message="_BtuOIJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOFZDTEeaqquCasSxMyA" covered="_BtuOB5DTEeaqquCasSxMyA" message="_BtuOIJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOFJDTEeaqquCasSxMyA" covered="_BtuOCJDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_BtuOIJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtuOFZDTEeaqquCasSxMyA" covered="_BtuOB5DTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_BtuOIJDTEeaqquCasSxMyA"/>
         <message xmi:id="_BtuOFpDTEeaqquCasSxMyA" name="vérifierChapitres" messageSort="asynchCall" receiveEvent="_BtuODZDTEeaqquCasSxMyA" sendEvent="_BtuODJDTEeaqquCasSxMyA"/>
         <message xmi:id="_BtuOF5DTEeaqquCasSxMyA" name="passerQcm" receiveEvent="_BtuOCpDTEeaqquCasSxMyA" sendEvent="_BtuOCZDTEeaqquCasSxMyA">
           <eAnnotations xmi:id="_BtuOGJDTEeaqquCasSxMyA" source="com.ibm.xtools.uml.core.displayoptions">
@@ -2344,29 +2328,17 @@
         </eAnnotations>
         <lifeline xmi:id="_Btu0_JDTEeaqquCasSxMyA" name="etudiant" represents="_BtvcYpDTEeaqquCasSxMyA" coveredBy="_Btu0_pDTEeaqquCasSxMyA _Btu1BpDTEeaqquCasSxMyA"/>
         <lifeline xmi:id="_Btu0_ZDTEeaqquCasSxMyA" name="eCours" represents="_BtvcY5DTEeaqquCasSxMyA" coveredBy="_Btu0_5DTEeaqquCasSxMyA _Btu1AJDTEeaqquCasSxMyA _Btu1BZDTEeaqquCasSxMyA _Btu1AZDTEeaqquCasSxMyA _Btu1ApDTEeaqquCasSxMyA _Btu1A5DTEeaqquCasSxMyA _Btu1BJDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu0_pDTEeaqquCasSxMyA" covered="_Btu0_JDTEeaqquCasSxMyA" message="_Btu1CJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu0_5DTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" message="_Btu1CJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu0_pDTEeaqquCasSxMyA" covered="_Btu0_JDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu1CJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu0_5DTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu1CJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu1AJDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" start="_Btu0_5DTEeaqquCasSxMyA" finish="_Btu1BZDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1AZDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" message="_Btu1B5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TTWJQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent2?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1ApDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" message="_Btu1B5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TThIYI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent2?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1AZDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" event="_bRtGYJLsEeajQpByLehgUQ" message="_Btu1B5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1ApDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" event="_bRu7kJLsEeajQpByLehgUQ" message="_Btu1B5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu1A5DTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" start="_Btu1ApDTEeaqquCasSxMyA" finish="_Btu1BJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu1BJDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" execution="_Btu1A5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1BZDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" message="_Btu1EZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1BpDTEeaqquCasSxMyA" covered="_Btu0_JDTEeaqquCasSxMyA" message="_Btu1EZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1BZDTEeaqquCasSxMyA" covered="_Btu0_ZDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu1EZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1BpDTEeaqquCasSxMyA" covered="_Btu0_JDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu1EZDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu1B5DTEeaqquCasSxMyA" name="vérifierChapitres" messageSort="asynchCall" receiveEvent="_Btu1ApDTEeaqquCasSxMyA" sendEvent="_Btu1AZDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu1CJDTEeaqquCasSxMyA" name="passerQcm" receiveEvent="_Btu0_5DTEeaqquCasSxMyA" sendEvent="_Btu0_pDTEeaqquCasSxMyA">
           <eAnnotations xmi:id="_Btu1CZDTEeaqquCasSxMyA" source="com.ibm.xtools.uml.core.displayoptions">
@@ -2476,39 +2448,23 @@
         </eAnnotations>
         <lifeline xmi:id="_Btu1SpDTEeaqquCasSxMyA" name="etudiant" represents="_BtvcYpDTEeaqquCasSxMyA" coveredBy="_Btu1TJDTEeaqquCasSxMyA _Btu1WJDTEeaqquCasSxMyA"/>
         <lifeline xmi:id="_Btu1S5DTEeaqquCasSxMyA" name="eCours" represents="_BtvcY5DTEeaqquCasSxMyA" coveredBy="_Btu1TZDTEeaqquCasSxMyA _Btu1TpDTEeaqquCasSxMyA _Btu1V5DTEeaqquCasSxMyA _Btu1T5DTEeaqquCasSxMyA _Btu1UJDTEeaqquCasSxMyA _Btu1UZDTEeaqquCasSxMyA _Btu1UpDTEeaqquCasSxMyA _Btu1U5DTEeaqquCasSxMyA _Btu1VJDTEeaqquCasSxMyA _Btu1VZDTEeaqquCasSxMyA _Btu1VpDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1TJDTEeaqquCasSxMyA" covered="_Btu1SpDTEeaqquCasSxMyA" message="_Btu1WZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1TZDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1WZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1TJDTEeaqquCasSxMyA" covered="_Btu1SpDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu1WZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1TZDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu1WZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu1TpDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" start="_Btu1TZDTEeaqquCasSxMyA" finish="_Btu1V5DTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1T5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1ZZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TTWJQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent2?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1UJDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1ZZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TThIYI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent2?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1T5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_bRtGYJLsEeajQpByLehgUQ" message="_Btu1ZZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1UJDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_bRu7kJLsEeajQpByLehgUQ" message="_Btu1ZZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu1UZDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" start="_Btu1UJDTEeaqquCasSxMyA" finish="_Btu1UpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu1UpDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" execution="_Btu1UZDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1U5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1ZpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent3?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1VJDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1ZpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24Y55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent3?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1U5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_cJpbAJLsEeajQpByLehgUQ" message="_Btu1ZpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1VJDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_cJpbAZLsEeajQpByLehgUQ" message="_Btu1ZpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu1VZDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" start="_Btu1VJDTEeaqquCasSxMyA" finish="_Btu1VpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu1VpDTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" execution="_Btu1VZDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1V5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" message="_Btu1YpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1WJDTEeaqquCasSxMyA" covered="_Btu1SpDTEeaqquCasSxMyA" message="_Btu1YpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1V5DTEeaqquCasSxMyA" covered="_Btu1S5DTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu1YpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu1WJDTEeaqquCasSxMyA" covered="_Btu1SpDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu1YpDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu1WZDTEeaqquCasSxMyA" name="passerQcm" receiveEvent="_Btu1TZDTEeaqquCasSxMyA" sendEvent="_Btu1TJDTEeaqquCasSxMyA">
           <eAnnotations xmi:id="_Btu1WpDTEeaqquCasSxMyA" source="com.ibm.xtools.uml.core.displayoptions">
             <details xmi:id="_Btu1W5DTEeaqquCasSxMyA" key="EmptyArgumentMessageOption" value="Afficher l'argument sous la forme &quot;&lt;nom paramètre> = -&quot; "/>
@@ -2766,135 +2722,75 @@
         </ownedConnector>
         <lifeline xmi:id="_Btu2DpDTEeaqquCasSxMyA" name="etudiant" represents="_BtvcYpDTEeaqquCasSxMyA" coveredBy="_Btu2EJDTEeaqquCasSxMyA _Btu2IJDTEeaqquCasSxMyA _Btu2IZDTEeaqquCasSxMyA _Btu2MZDTEeaqquCasSxMyA _Btu2MpDTEeaqquCasSxMyA _Btu2QpDTEeaqquCasSxMyA"/>
         <lifeline xmi:id="_Btu2D5DTEeaqquCasSxMyA" name="eCours" represents="_BtvcY5DTEeaqquCasSxMyA" coveredBy="_Btu2EZDTEeaqquCasSxMyA _Btu2EpDTEeaqquCasSxMyA _Btu2H5DTEeaqquCasSxMyA _Btu2E5DTEeaqquCasSxMyA _Btu2FJDTEeaqquCasSxMyA _Btu2FZDTEeaqquCasSxMyA _Btu2FpDTEeaqquCasSxMyA _Btu2F5DTEeaqquCasSxMyA _Btu2GJDTEeaqquCasSxMyA _Btu2GZDTEeaqquCasSxMyA _Btu2GpDTEeaqquCasSxMyA _Btu2IpDTEeaqquCasSxMyA _Btu2I5DTEeaqquCasSxMyA _Btu2MJDTEeaqquCasSxMyA _Btu2JJDTEeaqquCasSxMyA _Btu2JZDTEeaqquCasSxMyA _Btu2JpDTEeaqquCasSxMyA _Btu2J5DTEeaqquCasSxMyA _Btu2KJDTEeaqquCasSxMyA _Btu2KZDTEeaqquCasSxMyA _Btu2KpDTEeaqquCasSxMyA _Btu2K5DTEeaqquCasSxMyA _Btu2M5DTEeaqquCasSxMyA _Btu2NJDTEeaqquCasSxMyA _Btu2QZDTEeaqquCasSxMyA _Btu2NZDTEeaqquCasSxMyA _Btu2NpDTEeaqquCasSxMyA _Btu2N5DTEeaqquCasSxMyA _Btu2OJDTEeaqquCasSxMyA _Btu2OZDTEeaqquCasSxMyA _Btu2OpDTEeaqquCasSxMyA _Btu2O5DTEeaqquCasSxMyA _Btu2PJDTEeaqquCasSxMyA _Btu2G5DTEeaqquCasSxMyA _Btu2HJDTEeaqquCasSxMyA _Btu2HZDTEeaqquCasSxMyA _Btu2HpDTEeaqquCasSxMyA _Btu2LJDTEeaqquCasSxMyA _Btu2LZDTEeaqquCasSxMyA _Btu2LpDTEeaqquCasSxMyA _Btu2L5DTEeaqquCasSxMyA _Btu2PZDTEeaqquCasSxMyA _Btu2PpDTEeaqquCasSxMyA _Btu2P5DTEeaqquCasSxMyA _Btu2QJDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2EJDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2Q5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2EZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2Q5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2EJDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu2Q5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2EZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu2Q5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2EpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2EZDTEeaqquCasSxMyA" finish="_Btu2H5DTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2E5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2WZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TTWJQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent2?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2FJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2WZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TThIYI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent2?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2E5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_bRtGYJLsEeajQpByLehgUQ" message="_Btu2WZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2FJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_bRu7kJLsEeajQpByLehgUQ" message="_Btu2WZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2FZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2FJDTEeaqquCasSxMyA" finish="_Btu2FpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2FpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2FZDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2F5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2WpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent3?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2GJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2WpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24Y55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent3?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2F5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_cJpbAJLsEeajQpByLehgUQ" message="_Btu2WpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2GJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_cJpbAZLsEeajQpByLehgUQ" message="_Btu2WpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2GZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2GJDTEeaqquCasSxMyA" finish="_Btu2GpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2GpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2GZDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2G5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXacII59Eeaiq7DFp4zTpA?Analyse/SendOperationEvent7?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2HJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXcRUI59Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent7?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2G5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_c3xsUJLsEeajQpByLehgUQ" message="_Btu2ZZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2HJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_c3xsUZLsEeajQpByLehgUQ" message="_Btu2ZZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2HZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2HJDTEeaqquCasSxMyA" finish="_Btu2HpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2HpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2HZDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2H5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2VpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IJDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2VpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IZDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2UJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2UJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2H5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_Btu2VpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IJDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_Btu2VpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IZDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_Btu2UJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2IpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_Btu2UJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2I5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2IpDTEeaqquCasSxMyA" finish="_Btu2MJDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2JJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2VZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent5?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2JZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2VZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQY55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent5?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2JJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_d8mmYJLsEeajQpByLehgUQ" message="_Btu2VZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2JZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_d8mmYZLsEeajQpByLehgUQ" message="_Btu2VZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2JpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2JZDTEeaqquCasSxMyA" finish="_Btu2J5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2J5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2JpDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2KJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2T5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QI56Eeaiq7DFp4zTpA?Analyse/SendOperationEvent6?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2KZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2T5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QY56Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent6?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2KJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_fXXUMJLsEeajQpByLehgUQ" message="_Btu2T5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2KZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_fXX7QJLsEeajQpByLehgUQ" message="_Btu2T5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2KpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2KZDTEeaqquCasSxMyA" finish="_Btu2K5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2K5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2KpDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2LJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXacII59Eeaiq7DFp4zTpA?Analyse/SendOperationEvent7?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2LZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXcRUI59Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent7?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2LJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_c3xsUJLsEeajQpByLehgUQ" message="_Btu2ZpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2LZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_c3xsUZLsEeajQpByLehgUQ" message="_Btu2ZpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2LpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2LZDTEeaqquCasSxMyA" finish="_Btu2L5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2L5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2LpDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2TJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MZDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2TJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MpDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2W5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2M5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2W5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_Btu2TJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MZDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_Btu2TJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2MpDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_Btu2W5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2M5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_Btu2W5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2NJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2M5DTEeaqquCasSxMyA" finish="_Btu2QZDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2NZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2Y5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent5?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2NpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2Y5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQY55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent5?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2NZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_d8mmYJLsEeajQpByLehgUQ" message="_Btu2Y5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2NpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_d8mmYZLsEeajQpByLehgUQ" message="_Btu2Y5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2N5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2NpDTEeaqquCasSxMyA" finish="_Btu2OJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2OJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2N5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2OZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QI56Eeaiq7DFp4zTpA?Analyse/SendOperationEvent6?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2OpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2ZJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QY56Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent6?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2OZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_fXXUMJLsEeajQpByLehgUQ" message="_Btu2ZJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2OpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_fXX7QJLsEeajQpByLehgUQ" message="_Btu2ZJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2O5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2OpDTEeaqquCasSxMyA" finish="_Btu2PJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2PJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2O5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2PZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2Z5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_CWYbQJANEeaUX-YH4ATojA?Analyse/SendOperationEvent11?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2PpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2Z5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_CWYbQZANEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent11?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2PZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_hW14oJLsEeajQpByLehgUQ" message="_Btu2Z5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2PpDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_hW2fsJLsEeajQpByLehgUQ" message="_Btu2Z5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Btu2P5DTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" start="_Btu2PpDTEeaqquCasSxMyA" finish="_Btu2QJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Btu2QJDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" execution="_Btu2P5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2QZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" message="_Btu2YJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2QpDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" message="_Btu2YJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2QZDTEeaqquCasSxMyA" covered="_Btu2D5DTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_Btu2YJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Btu2QpDTEeaqquCasSxMyA" covered="_Btu2DpDTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_Btu2YJDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2Q5DTEeaqquCasSxMyA" name="passerQcm" receiveEvent="_Btu2EZDTEeaqquCasSxMyA" sendEvent="_Btu2EJDTEeaqquCasSxMyA">
           <eAnnotations xmi:id="_Btu2RJDTEeaqquCasSxMyA" source="com.ibm.xtools.uml.core.displayoptions">
             <details xmi:id="_Btu2RZDTEeaqquCasSxMyA" key="EmptyArgumentMessageOption" value="Afficher l'argument sous la forme &quot;&lt;nom paramètre> = -&quot; "/>
@@ -2930,7 +2826,7 @@
             <body>true</body>
           </argument>
         </message>
-        <message xmi:id="_Btu2T5DTEeaqquCasSxMyA" name="afficherRésultat" messageSort="asynchCall" receiveEvent="_Btu2KZDTEeaqquCasSxMyA" sendEvent="_Btu2KJDTEeaqquCasSxMyA"/>
+        <message xmi:id="_Btu2T5DTEeaqquCasSxMyA" name="afficherRésultatQuestion" messageSort="asynchCall" receiveEvent="_Btu2KZDTEeaqquCasSxMyA" sendEvent="_Btu2KJDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2UJDTEeaqquCasSxMyA" name="répondreQuestion" receiveEvent="_Btu2IpDTEeaqquCasSxMyA" sendEvent="_Btu2IZDTEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_Btu2UZDTEeaqquCasSxMyA">
             <eAnnotations xmi:id="_Btu2UpDTEeaqquCasSxMyA" source="Parameter">
@@ -2947,7 +2843,7 @@
             <body>&quot;0,2&quot;</body>
           </argument>
         </message>
-        <message xmi:id="_Btu2VZDTEeaqquCasSxMyA" name="vérifierRéponse" messageSort="asynchCall" receiveEvent="_Btu2JZDTEeaqquCasSxMyA" sendEvent="_Btu2JJDTEeaqquCasSxMyA"/>
+        <message xmi:id="_Btu2VZDTEeaqquCasSxMyA" name="vérifierRéponseQuestion" messageSort="asynchCall" receiveEvent="_Btu2JZDTEeaqquCasSxMyA" sendEvent="_Btu2JJDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2VpDTEeaqquCasSxMyA" name="passerQcm" messageSort="reply" receiveEvent="_Btu2IJDTEeaqquCasSxMyA" sendEvent="_Btu2H5DTEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_Btu2V5DTEeaqquCasSxMyA">
             <eAnnotations xmi:id="_Btu2WJDTEeaqquCasSxMyA" source="Parameter">
@@ -2984,8 +2880,8 @@
             <body>true</body>
           </argument>
         </message>
-        <message xmi:id="_Btu2Y5DTEeaqquCasSxMyA" name="vérifierRéponse" messageSort="asynchCall" receiveEvent="_Btu2NpDTEeaqquCasSxMyA" sendEvent="_Btu2NZDTEeaqquCasSxMyA"/>
-        <message xmi:id="_Btu2ZJDTEeaqquCasSxMyA" name="afficherRésultat" messageSort="asynchCall" receiveEvent="_Btu2OpDTEeaqquCasSxMyA" sendEvent="_Btu2OZDTEeaqquCasSxMyA"/>
+        <message xmi:id="_Btu2Y5DTEeaqquCasSxMyA" name="vérifierRéponseQuestion" messageSort="asynchCall" receiveEvent="_Btu2NpDTEeaqquCasSxMyA" sendEvent="_Btu2NZDTEeaqquCasSxMyA"/>
+        <message xmi:id="_Btu2ZJDTEeaqquCasSxMyA" name="afficherRésultatQuestion" messageSort="asynchCall" receiveEvent="_Btu2OpDTEeaqquCasSxMyA" sendEvent="_Btu2OZDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2ZZDTEeaqquCasSxMyA" name="générerQuestion" messageSort="asynchCall" receiveEvent="_Btu2HJDTEeaqquCasSxMyA" sendEvent="_Btu2G5DTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2ZpDTEeaqquCasSxMyA" name="générerQuestion" messageSort="asynchCall" receiveEvent="_Btu2LZDTEeaqquCasSxMyA" sendEvent="_Btu2LJDTEeaqquCasSxMyA"/>
         <message xmi:id="_Btu2Z5DTEeaqquCasSxMyA" name="afficherRésultatQcm" messageSort="asynchCall" receiveEvent="_Btu2PpDTEeaqquCasSxMyA" sendEvent="_Btu2PZDTEeaqquCasSxMyA" connector="_Btu2C5DTEeaqquCasSxMyA"/>
@@ -3150,92 +3046,52 @@
         </ownedConnector>
         <lifeline xmi:id="_BtvcJJDTEeaqquCasSxMyA" name="etudiant" represents="_BtvcYpDTEeaqquCasSxMyA" coveredBy="_BtvcJpDTEeaqquCasSxMyA _BtvcNpDTEeaqquCasSxMyA _BtvcN5DTEeaqquCasSxMyA _BtvcR5DTEeaqquCasSxMyA"/>
         <lifeline xmi:id="_BtvcJZDTEeaqquCasSxMyA" name="eCours" represents="_BtvcY5DTEeaqquCasSxMyA" coveredBy="_BtvcJ5DTEeaqquCasSxMyA _BtvcKJDTEeaqquCasSxMyA _BtvcNZDTEeaqquCasSxMyA _BtvcKZDTEeaqquCasSxMyA _BtvcKpDTEeaqquCasSxMyA _BtvcK5DTEeaqquCasSxMyA _BtvcLJDTEeaqquCasSxMyA _BtvcLZDTEeaqquCasSxMyA _BtvcLpDTEeaqquCasSxMyA _BtvcL5DTEeaqquCasSxMyA _BtvcMJDTEeaqquCasSxMyA _BtvcOJDTEeaqquCasSxMyA _BtvcOZDTEeaqquCasSxMyA _BtvcRpDTEeaqquCasSxMyA _BtvcOpDTEeaqquCasSxMyA _BtvcO5DTEeaqquCasSxMyA _BtvcPJDTEeaqquCasSxMyA _BtvcPZDTEeaqquCasSxMyA _BtvcPpDTEeaqquCasSxMyA _BtvcP5DTEeaqquCasSxMyA _BtvcQJDTEeaqquCasSxMyA _BtvcQZDTEeaqquCasSxMyA _BtvcMZDTEeaqquCasSxMyA _BtvcMpDTEeaqquCasSxMyA _BtvcM5DTEeaqquCasSxMyA _BtvcNJDTEeaqquCasSxMyA _BtvcQpDTEeaqquCasSxMyA _BtvcQ5DTEeaqquCasSxMyA _BtvcRJDTEeaqquCasSxMyA _BtvcRZDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcJpDTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" message="_BtvcSJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcJ5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcSJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcJpDTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_BtvcSJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcJ5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_BtvcSJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcKJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcJ5DTEeaqquCasSxMyA" finish="_BtvcNZDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcKZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcVJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TTWJQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent2?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcKpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcVJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_TThIYI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent2?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcKZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_bRtGYJLsEeajQpByLehgUQ" message="_BtvcVJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcKpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_bRu7kJLsEeajQpByLehgUQ" message="_BtvcVJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcK5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcKpDTEeaqquCasSxMyA" finish="_BtvcLJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcLJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcK5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcLZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcVZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent3?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcLpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcVZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_XLF24Y55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent3?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcLZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_cJpbAJLsEeajQpByLehgUQ" message="_BtvcVZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcLpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_cJpbAZLsEeajQpByLehgUQ" message="_BtvcVZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcL5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcLpDTEeaqquCasSxMyA" finish="_BtvcMJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcMJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcL5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcMZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcYJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXacII59Eeaiq7DFp4zTpA?Analyse/SendOperationEvent7?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcMpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcYJDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_oXcRUI59Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent7?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcMZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_c3xsUJLsEeajQpByLehgUQ" message="_BtvcYJDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcMpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_c3xsUZLsEeajQpByLehgUQ" message="_BtvcYJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcM5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcMpDTEeaqquCasSxMyA" finish="_BtvcNJDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcNJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcM5DTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcNZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcUZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnQUEI52Eeaiq7DFp4zTpA?Analyse/SendOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcNpDTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" message="_BtvcUZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_FnTXYI52Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcN5DTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" message="_BtvcVpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcOJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcVpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcNZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_YKwjkJLsEeajQpByLehgUQ" message="_BtvcUZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcNpDTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" event="_YKwjkZLsEeajQpByLehgUQ" message="_BtvcUZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcN5DTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_BtvcVpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcOJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_BtvcVpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcOZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcOJDTEeaqquCasSxMyA" finish="_BtvcRpDTEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcOpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcXpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQI55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent5?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcO5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcXpDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_-2NhQY55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent5?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcOpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_d8mmYJLsEeajQpByLehgUQ" message="_BtvcXpDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcO5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_d8mmYZLsEeajQpByLehgUQ" message="_BtvcXpDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcPJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcO5DTEeaqquCasSxMyA" finish="_BtvcPZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcPZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcPJDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcPpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcX5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QI56Eeaiq7DFp4zTpA?Analyse/SendOperationEvent6?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcP5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcX5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Vq72QY56Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent6?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcPpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_fXXUMJLsEeajQpByLehgUQ" message="_BtvcX5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcP5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_fXX7QJLsEeajQpByLehgUQ" message="_BtvcX5DTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcQJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcP5DTEeaqquCasSxMyA" finish="_BtvcQZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcQZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcQJDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcQpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcYZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_CWYbQJANEeaUX-YH4ATojA?Analyse/SendOperationEvent11?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcQ5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcYZDTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_CWYbQZANEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent11?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcQpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_hW14oJLsEeajQpByLehgUQ" message="_BtvcYZDTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcQ5DTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_hW2fsJLsEeajQpByLehgUQ" message="_BtvcYZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BtvcRJDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" start="_BtvcQ5DTEeaqquCasSxMyA" finish="_BtvcRZDTEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BtvcRZDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" execution="_BtvcRJDTEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcRpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" message="_BtvcW5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7deq4I55Eeaiq7DFp4zTpA?Analyse/SendOperationEvent4?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcR5DTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" message="_BtvcW5DTEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_7df5AI55Eeaiq7DFp4zTpA?Analyse/ReceiveOperationEvent4?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcRpDTEeaqquCasSxMyA" covered="_BtvcJZDTEeaqquCasSxMyA" event="_ZI94QJLsEeajQpByLehgUQ" message="_BtvcW5DTEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BtvcR5DTEeaqquCasSxMyA" covered="_BtvcJJDTEeaqquCasSxMyA" event="_ZI-fUJLsEeajQpByLehgUQ" message="_BtvcW5DTEeaqquCasSxMyA"/>
         <message xmi:id="_BtvcSJDTEeaqquCasSxMyA" name="passerQcm" receiveEvent="_BtvcJ5DTEeaqquCasSxMyA" sendEvent="_BtvcJpDTEeaqquCasSxMyA" connector="_BtvcHpDTEeaqquCasSxMyA">
           <eAnnotations xmi:id="_BtvcSZDTEeaqquCasSxMyA" source="com.ibm.xtools.uml.core.displayoptions">
             <details xmi:id="_BtvcSpDTEeaqquCasSxMyA" key="EmptyArgumentMessageOption" value="Afficher l'argument sous la forme &quot;&lt;nom paramètre> = -&quot; "/>
@@ -3298,8 +3154,8 @@
             <body>true</body>
           </argument>
         </message>
-        <message xmi:id="_BtvcXpDTEeaqquCasSxMyA" name="vérifierRéponse" messageSort="asynchCall" receiveEvent="_BtvcO5DTEeaqquCasSxMyA" sendEvent="_BtvcOpDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
-        <message xmi:id="_BtvcX5DTEeaqquCasSxMyA" name="afficherRésultat" messageSort="asynchCall" receiveEvent="_BtvcP5DTEeaqquCasSxMyA" sendEvent="_BtvcPpDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
+        <message xmi:id="_BtvcXpDTEeaqquCasSxMyA" name="vérifierRéponseQuestion" messageSort="asynchCall" receiveEvent="_BtvcO5DTEeaqquCasSxMyA" sendEvent="_BtvcOpDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
+        <message xmi:id="_BtvcX5DTEeaqquCasSxMyA" name="afficherRésultatQuestion" messageSort="asynchCall" receiveEvent="_BtvcP5DTEeaqquCasSxMyA" sendEvent="_BtvcPpDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
         <message xmi:id="_BtvcYJDTEeaqquCasSxMyA" name="générerQuestion" messageSort="asynchCall" receiveEvent="_BtvcMpDTEeaqquCasSxMyA" sendEvent="_BtvcMZDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
         <message xmi:id="_BtvcYZDTEeaqquCasSxMyA" name="afficherRésultatQcm" messageSort="asynchCall" receiveEvent="_BtvcQ5DTEeaqquCasSxMyA" sendEvent="_BtvcQpDTEeaqquCasSxMyA" connector="_BtvcIZDTEeaqquCasSxMyA"/>
       </ownedBehavior>
@@ -3398,16 +3254,6 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEPthJDXEeaqquCasSxMyA" id="657:344"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEPthZDXEeaqquCasSxMyA" id="662:265"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rEPthpDXEeaqquCasSxMyA" element="_rEPtupDXEeaqquCasSxMyA" source="_rEPtTZDXEeaqquCasSxMyA" target="_rEPtTZDXEeaqquCasSxMyA" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_rEPth5DXEeaqquCasSxMyA" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEPtiJDXEeaqquCasSxMyA" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEPtiZDXEeaqquCasSxMyA" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rEPtipDXEeaqquCasSxMyA" x="-42" y="-4912"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rEPti5DXEeaqquCasSxMyA" points="[0, 0, 0, -22]$[0, 22, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEPtjJDXEeaqquCasSxMyA" id="665:477"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEPtjZDXEeaqquCasSxMyA" id="730:582"/>
-            </edges>
           </contents>
         </eAnnotations>
         <ownedConnector xmi:id="_rEPtjpDXEeaqquCasSxMyA">
@@ -3419,60 +3265,30 @@
           <end xmi:id="_rEPtk5DXEeaqquCasSxMyA" role="_rET_aZDXEeaqquCasSxMyA"/>
         </ownedConnector>
         <lifeline xmi:id="_rEPtlJDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rEPtlpDXEeaqquCasSxMyA _rEPtqpDXEeaqquCasSxMyA"/>
-        <lifeline xmi:id="_rEPtlZDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEPtl5DXEeaqquCasSxMyA _rEPtmJDXEeaqquCasSxMyA _rEPtqZDXEeaqquCasSxMyA _rEPtmZDXEeaqquCasSxMyA _rEPtmpDXEeaqquCasSxMyA _rEPtm5DXEeaqquCasSxMyA _rEPtnJDXEeaqquCasSxMyA _rEPtnZDXEeaqquCasSxMyA _rEPtnpDXEeaqquCasSxMyA _rEPtn5DXEeaqquCasSxMyA _rEPtoJDXEeaqquCasSxMyA _rEPtoZDXEeaqquCasSxMyA _rEPtopDXEeaqquCasSxMyA _rEPto5DXEeaqquCasSxMyA _rEPtpJDXEeaqquCasSxMyA _rEPtpZDXEeaqquCasSxMyA _rEPtppDXEeaqquCasSxMyA _rEPtp5DXEeaqquCasSxMyA _rEPtqJDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtlpDXEeaqquCasSxMyA" covered="_rEPtlJDXEeaqquCasSxMyA" message="_rEPtq5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_heVnMJAMEeaUX-YH4ATojA?Analyse/SendOperationEvent8?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtl5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtq5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_heVnMZAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent8?"/>
-        </fragment>
+        <lifeline xmi:id="_rEPtlZDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEPtl5DXEeaqquCasSxMyA _rEPtmJDXEeaqquCasSxMyA _rEPtqZDXEeaqquCasSxMyA _rEPtmZDXEeaqquCasSxMyA _rEPtmpDXEeaqquCasSxMyA _rEPtm5DXEeaqquCasSxMyA _rEPtnJDXEeaqquCasSxMyA _rEPtnZDXEeaqquCasSxMyA _rEPtnpDXEeaqquCasSxMyA _rEPtn5DXEeaqquCasSxMyA _rEPtoJDXEeaqquCasSxMyA _rEPtoZDXEeaqquCasSxMyA _rEPtopDXEeaqquCasSxMyA _rEPto5DXEeaqquCasSxMyA _rEPtpJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtlpDXEeaqquCasSxMyA" covered="_rEPtlJDXEeaqquCasSxMyA" event="_RKqk8JLsEeajQpByLehgUQ" message="_rEPtq5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtl5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_RK3ZQJLsEeajQpByLehgUQ" message="_rEPtq5DXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEPtmJDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" start="_rEPtl5DXEeaqquCasSxMyA" finish="_rEPtqZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtmZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtt5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKnbkJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent12?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtmpDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtt5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKoCoJAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent12?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtmZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_3EhigJLrEeajQpByLehgUQ" message="_rEPtt5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtmpDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_3EjXsJLrEeajQpByLehgUQ" message="_rEPtt5DXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEPtm5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" start="_rEPtmpDXEeaqquCasSxMyA" finish="_rEPtnJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEPtnJDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" execution="_rEPtm5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtnZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtuJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10JAOEeaUX-YH4ATojA?Analyse/SendOperationEvent13?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtnpDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtuJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10ZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent13?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtnZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_4HYGoJLrEeajQpByLehgUQ" message="_rEPtuJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtnpDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_4HYtsJLrEeajQpByLehgUQ" message="_rEPtuJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEPtn5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" start="_rEPtnpDXEeaqquCasSxMyA" finish="_rEPtoJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEPtoJDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" execution="_rEPtn5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtoZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtuZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent14?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtopDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtuZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent14?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtoZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_6vdjMJLrEeajQpByLehgUQ" message="_rEPtuZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtopDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_6veKQJLrEeajQpByLehgUQ" message="_rEPtuZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEPto5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" start="_rEPtopDXEeaqquCasSxMyA" finish="_rEPtpJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEPtpJDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" execution="_rEPto5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtpZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtupDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_VJp3kJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent15?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtppDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPtupDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_VJp3kZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent15?"/>
-        </fragment>
-        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEPtp5DXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" start="_rEPtppDXEeaqquCasSxMyA" finish="_rEPtqJDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEPtqJDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" execution="_rEPtp5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtqZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" message="_rEPttJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_heVnMJAMEeaUX-YH4ATojA?Analyse/SendOperationEvent8?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtqpDXEeaqquCasSxMyA" covered="_rEPtlJDXEeaqquCasSxMyA" message="_rEPttJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_heVnMZAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent8?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtqZDXEeaqquCasSxMyA" covered="_rEPtlZDXEeaqquCasSxMyA" event="_RKqk8JLsEeajQpByLehgUQ" message="_rEPttJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEPtqpDXEeaqquCasSxMyA" covered="_rEPtlJDXEeaqquCasSxMyA" event="_RK3ZQJLsEeajQpByLehgUQ" message="_rEPttJDXEeaqquCasSxMyA"/>
         <message xmi:id="_rEPtq5DXEeaqquCasSxMyA" name="créerQuestion" receiveEvent="_rEPtl5DXEeaqquCasSxMyA" sendEvent="_rEPtlpDXEeaqquCasSxMyA" connector="_rEPtjpDXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rEPtrJDXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rEPtrZDXEeaqquCasSxMyA" source="Parameter">
@@ -3515,7 +3331,6 @@
         <message xmi:id="_rEPtt5DXEeaqquCasSxMyA" name="vérifierTexteQuestion" messageSort="asynchCall" receiveEvent="_rEPtmpDXEeaqquCasSxMyA" sendEvent="_rEPtmZDXEeaqquCasSxMyA" connector="_rEPtkZDXEeaqquCasSxMyA"/>
         <message xmi:id="_rEPtuJDXEeaqquCasSxMyA" name="vérifierNbProposition" messageSort="asynchCall" receiveEvent="_rEPtnpDXEeaqquCasSxMyA" sendEvent="_rEPtnZDXEeaqquCasSxMyA" connector="_rEPtkZDXEeaqquCasSxMyA"/>
         <message xmi:id="_rEPtuZDXEeaqquCasSxMyA" name="vérifierFormatPropositions" messageSort="asynchCall" receiveEvent="_rEPtopDXEeaqquCasSxMyA" sendEvent="_rEPtoZDXEeaqquCasSxMyA" connector="_rEPtkZDXEeaqquCasSxMyA"/>
-        <message xmi:id="_rEPtupDXEeaqquCasSxMyA" name="afficherConfirmationCréationQuestion" messageSort="asynchCall" receiveEvent="_rEPtppDXEeaqquCasSxMyA" sendEvent="_rEPtpZDXEeaqquCasSxMyA" connector="_rEPtkZDXEeaqquCasSxMyA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_rEQUUJDXEeaqquCasSxMyA" name="Gérer une question (cas alternatif 1)">
         <eAnnotations xmi:id="_rEQUUZDXEeaqquCasSxMyA" source="uml2.diagrams">
@@ -3603,16 +3418,6 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQUkZDXEeaqquCasSxMyA" id="775:583"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQUkpDXEeaqquCasSxMyA" id="801:687"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rEQUk5DXEeaqquCasSxMyA" element="_rEQUxZDXEeaqquCasSxMyA" source="_rEQUXJDXEeaqquCasSxMyA" target="_rEQUXJDXEeaqquCasSxMyA" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_rEQUlJDXEeaqquCasSxMyA" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEQUlZDXEeaqquCasSxMyA" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEQUlpDXEeaqquCasSxMyA" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rEQUl5DXEeaqquCasSxMyA" x="3" y="-3971" width="6270" height="527"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rEQUmJDXEeaqquCasSxMyA" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQUmZDXEeaqquCasSxMyA" id="803:476"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQUmpDXEeaqquCasSxMyA" id="808:265"/>
-            </edges>
           </contents>
         </eAnnotations>
         <ownedConnector xmi:id="_rEQUm5DXEeaqquCasSxMyA">
@@ -3624,60 +3429,30 @@
           <end xmi:id="_rEQUoJDXEeaqquCasSxMyA" role="_rET_aZDXEeaqquCasSxMyA"/>
         </ownedConnector>
         <lifeline xmi:id="_rEQUoZDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rEQUo5DXEeaqquCasSxMyA _rEQUt5DXEeaqquCasSxMyA"/>
-        <lifeline xmi:id="_rEQUopDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEQUpJDXEeaqquCasSxMyA _rEQUpZDXEeaqquCasSxMyA _rEQUtpDXEeaqquCasSxMyA _rEQUppDXEeaqquCasSxMyA _rEQUp5DXEeaqquCasSxMyA _rEQUqJDXEeaqquCasSxMyA _rEQUqZDXEeaqquCasSxMyA _rEQUqpDXEeaqquCasSxMyA _rEQUq5DXEeaqquCasSxMyA _rEQUrJDXEeaqquCasSxMyA _rEQUrZDXEeaqquCasSxMyA _rEQUrpDXEeaqquCasSxMyA _rEQUr5DXEeaqquCasSxMyA _rEQUsJDXEeaqquCasSxMyA _rEQUsZDXEeaqquCasSxMyA _rEQUspDXEeaqquCasSxMyA _rEQUs5DXEeaqquCasSxMyA _rEQUtJDXEeaqquCasSxMyA _rEQUtZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUo5DXEeaqquCasSxMyA" covered="_rEQUoZDXEeaqquCasSxMyA" message="_rEQUuJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUpJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUuJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <lifeline xmi:id="_rEQUopDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEQUpJDXEeaqquCasSxMyA _rEQUpZDXEeaqquCasSxMyA _rEQUtpDXEeaqquCasSxMyA _rEQUppDXEeaqquCasSxMyA _rEQUp5DXEeaqquCasSxMyA _rEQUqJDXEeaqquCasSxMyA _rEQUqZDXEeaqquCasSxMyA _rEQUqpDXEeaqquCasSxMyA _rEQUq5DXEeaqquCasSxMyA _rEQUrJDXEeaqquCasSxMyA _rEQUrZDXEeaqquCasSxMyA _rEQUrpDXEeaqquCasSxMyA _rEQUr5DXEeaqquCasSxMyA _rEQUsJDXEeaqquCasSxMyA _rEQUsZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUo5DXEeaqquCasSxMyA" covered="_rEQUoZDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rEQUuJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUpJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rEQUuJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQUpZDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" start="_rEQUpJDXEeaqquCasSxMyA" finish="_rEQUtpDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUppDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUwpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKnbkJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent12?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUp5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUwpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKoCoJAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent12?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUppDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_3EhigJLrEeajQpByLehgUQ" message="_rEQUwpDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUp5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_3EjXsJLrEeajQpByLehgUQ" message="_rEQUwpDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQUqJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" start="_rEQUp5DXEeaqquCasSxMyA" finish="_rEQUqZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQUqZDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" execution="_rEQUqJDXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUqpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUw5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10JAOEeaUX-YH4ATojA?Analyse/SendOperationEvent13?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUq5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUw5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10ZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent13?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUqpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_4HYGoJLrEeajQpByLehgUQ" message="_rEQUw5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUq5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_4HYtsJLrEeajQpByLehgUQ" message="_rEQUw5DXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQUrJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" start="_rEQUq5DXEeaqquCasSxMyA" finish="_rEQUrZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQUrZDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" execution="_rEQUrJDXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUrpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUxJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent14?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUr5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUxJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent14?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUrpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_6vdjMJLrEeajQpByLehgUQ" message="_rEQUxJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUr5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_6veKQJLrEeajQpByLehgUQ" message="_rEQUxJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQUsJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" start="_rEQUr5DXEeaqquCasSxMyA" finish="_rEQUsZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQUsZDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" execution="_rEQUsJDXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUspDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUxZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NkBtgJAPEeaUX-YH4ATojA?Analyse/SendOperationEvent16?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUs5DXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUxZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NkDisJAPEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent16?"/>
-        </fragment>
-        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQUtJDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" start="_rEQUs5DXEeaqquCasSxMyA" finish="_rEQUtZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQUtZDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" execution="_rEQUtJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUtpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" message="_rEQUv5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUt5DXEeaqquCasSxMyA" covered="_rEQUoZDXEeaqquCasSxMyA" message="_rEQUv5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUtpDXEeaqquCasSxMyA" covered="_rEQUopDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rEQUv5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQUt5DXEeaqquCasSxMyA" covered="_rEQUoZDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rEQUv5DXEeaqquCasSxMyA"/>
         <message xmi:id="_rEQUuJDXEeaqquCasSxMyA" name="modifierQuestion" receiveEvent="_rEQUpJDXEeaqquCasSxMyA" sendEvent="_rEQUo5DXEeaqquCasSxMyA" connector="_rEQUm5DXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rEQUuZDXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rEQUupDXEeaqquCasSxMyA" source="Parameter">
@@ -3713,7 +3488,6 @@
         <message xmi:id="_rEQUwpDXEeaqquCasSxMyA" name="vérifierTexteQuestion" messageSort="asynchCall" receiveEvent="_rEQUp5DXEeaqquCasSxMyA" sendEvent="_rEQUppDXEeaqquCasSxMyA" connector="_rEQUnpDXEeaqquCasSxMyA"/>
         <message xmi:id="_rEQUw5DXEeaqquCasSxMyA" name="vérifierNbProposition" messageSort="asynchCall" receiveEvent="_rEQUq5DXEeaqquCasSxMyA" sendEvent="_rEQUqpDXEeaqquCasSxMyA" connector="_rEQUnpDXEeaqquCasSxMyA"/>
         <message xmi:id="_rEQUxJDXEeaqquCasSxMyA" name="vérifierFormatPropositions" messageSort="asynchCall" receiveEvent="_rEQUr5DXEeaqquCasSxMyA" sendEvent="_rEQUrpDXEeaqquCasSxMyA" connector="_rEQUnpDXEeaqquCasSxMyA"/>
-        <message xmi:id="_rEQUxZDXEeaqquCasSxMyA" name="afficherConfirmationModificationQuestion" messageSort="asynchCall" receiveEvent="_rEQUs5DXEeaqquCasSxMyA" sendEvent="_rEQUspDXEeaqquCasSxMyA" connector="_rEQUnpDXEeaqquCasSxMyA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_rEQUxpDXEeaqquCasSxMyA" name="Gérer une question (cas alternatif 2)">
         <eAnnotations xmi:id="_rEQUx5DXEeaqquCasSxMyA" source="uml2.diagrams">
@@ -3762,16 +3536,6 @@
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQU6ZDXEeaqquCasSxMyA" id="202:687"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQU6pDXEeaqquCasSxMyA" id="203:0"/>
             </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rEQU65DXEeaqquCasSxMyA" element="_rEQVCpDXEeaqquCasSxMyA" source="_rEQU0pDXEeaqquCasSxMyA" target="_rEQU0pDXEeaqquCasSxMyA" fontName="Noto Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_rEQU7JDXEeaqquCasSxMyA" type="MessageNameLabel">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEQU7ZDXEeaqquCasSxMyA" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEQU7pDXEeaqquCasSxMyA" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rEQU75DXEeaqquCasSxMyA" x="-8" y="-3644"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rEQU8JDXEeaqquCasSxMyA" points="[0, 0, 0, -12]$[0, 12, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQU8ZDXEeaqquCasSxMyA" id="810:317"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rEQU8pDXEeaqquCasSxMyA" id="854:317"/>
-            </edges>
           </contents>
         </eAnnotations>
         <ownedConnector xmi:id="_rEQU85DXEeaqquCasSxMyA">
@@ -3783,30 +3547,12 @@
           <end xmi:id="_rEQU-JDXEeaqquCasSxMyA" role="_rET_aZDXEeaqquCasSxMyA"/>
         </ownedConnector>
         <lifeline xmi:id="_rEQU-ZDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rEQU-5DXEeaqquCasSxMyA _rEQVA5DXEeaqquCasSxMyA"/>
-        <lifeline xmi:id="_rEQU-pDXEeaqquCasSxMyA" name="eCours" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEQU_JDXEeaqquCasSxMyA _rEQU_ZDXEeaqquCasSxMyA _rEQVApDXEeaqquCasSxMyA _rEQU_pDXEeaqquCasSxMyA _rEQU_5DXEeaqquCasSxMyA _rEQVAJDXEeaqquCasSxMyA _rEQVAZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU-5DXEeaqquCasSxMyA" covered="_rEQU-ZDXEeaqquCasSxMyA" message="_rEQVBJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_mYJ10JAMEeaUX-YH4ATojA?Analyse/SendOperationEvent10?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU_JDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" message="_rEQVBJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_mYQjgJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent10?"/>
-        </fragment>
+        <lifeline xmi:id="_rEQU-pDXEeaqquCasSxMyA" name="eCours" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEQU_JDXEeaqquCasSxMyA _rEQU_ZDXEeaqquCasSxMyA _rEQVApDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU-5DXEeaqquCasSxMyA" covered="_rEQU-ZDXEeaqquCasSxMyA" event="_AI-lkJLsEeajQpByLehgUQ" message="_rEQVBJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU_JDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" event="_AI-lkZLsEeajQpByLehgUQ" message="_rEQVBJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQU_ZDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" start="_rEQU_JDXEeaqquCasSxMyA" finish="_rEQVApDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU_pDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" message="_rEQVCpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Z3YVgJAPEeaUX-YH4ATojA?Analyse/SendOperationEvent17?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQU_5DXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" message="_rEQVCpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_Z3YVgZAPEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent17?"/>
-        </fragment>
-        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQVAJDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" start="_rEQU_5DXEeaqquCasSxMyA" finish="_rEQVAZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQVAZDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" execution="_rEQVAJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQVApDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" message="_rEQVB5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_mYJ10JAMEeaUX-YH4ATojA?Analyse/SendOperationEvent10?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQVA5DXEeaqquCasSxMyA" covered="_rEQU-ZDXEeaqquCasSxMyA" message="_rEQVB5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_mYQjgJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent10?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQVApDXEeaqquCasSxMyA" covered="_rEQU-pDXEeaqquCasSxMyA" event="_AI-lkJLsEeajQpByLehgUQ" message="_rEQVB5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQVA5DXEeaqquCasSxMyA" covered="_rEQU-ZDXEeaqquCasSxMyA" event="_AI-lkZLsEeajQpByLehgUQ" message="_rEQVB5DXEeaqquCasSxMyA"/>
         <message xmi:id="_rEQVBJDXEeaqquCasSxMyA" name="supprimerQuestion" receiveEvent="_rEQU_JDXEeaqquCasSxMyA" sendEvent="_rEQU-5DXEeaqquCasSxMyA" connector="_rEQU85DXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rEQVBZDXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rEQVBpDXEeaqquCasSxMyA" source="Parameter">
@@ -3825,7 +3571,6 @@
             <body>true</body>
           </argument>
         </message>
-        <message xmi:id="_rEQVCpDXEeaqquCasSxMyA" name="afficherConfirmationSuppressionQuestion" messageSort="asynchCall" receiveEvent="_rEQU_5DXEeaqquCasSxMyA" sendEvent="_rEQU_pDXEeaqquCasSxMyA" connector="_rEQU9pDXEeaqquCasSxMyA"/>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_rEQ8O5DXEeaqquCasSxMyA" name="Gérer une question (cas Exception 3)">
         <eAnnotations xmi:id="_rEQ8PJDXEeaqquCasSxMyA" source="uml2.diagrams">
@@ -3925,49 +3670,29 @@
         </ownedConnector>
         <lifeline xmi:id="_rEQ8hJDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rEQ8hpDXEeaqquCasSxMyA _rET-sZDXEeaqquCasSxMyA"/>
         <lifeline xmi:id="_rEQ8hZDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rEQ8h5DXEeaqquCasSxMyA _rEQ8iJDXEeaqquCasSxMyA _rET-sJDXEeaqquCasSxMyA _rEQ8iZDXEeaqquCasSxMyA _rEQ8ipDXEeaqquCasSxMyA _rEQ8i5DXEeaqquCasSxMyA _rEQ8jJDXEeaqquCasSxMyA _rEQ8jZDXEeaqquCasSxMyA _rEQ8jpDXEeaqquCasSxMyA _rEQ8j5DXEeaqquCasSxMyA _rEQ8kJDXEeaqquCasSxMyA _rEQ8kZDXEeaqquCasSxMyA _rEQ8kpDXEeaqquCasSxMyA _rETXoJDXEeaqquCasSxMyA _rETXoZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8hpDXEeaqquCasSxMyA" covered="_rEQ8hJDXEeaqquCasSxMyA" message="_rET-spDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8h5DXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-spDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8hpDXEeaqquCasSxMyA" covered="_rEQ8hJDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET-spDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8h5DXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET-spDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQ8iJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" start="_rEQ8h5DXEeaqquCasSxMyA" finish="_rET-sJDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8iZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKnbkJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent12?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8ipDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKoCoJAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent12?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8iZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_3EhigJLrEeajQpByLehgUQ" message="_rET-vJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8ipDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_3EjXsJLrEeajQpByLehgUQ" message="_rET-vJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQ8i5DXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" start="_rEQ8ipDXEeaqquCasSxMyA" finish="_rEQ8jJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQ8jJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" execution="_rEQ8i5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8jZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10JAOEeaUX-YH4ATojA?Analyse/SendOperationEvent13?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8jpDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10ZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent13?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8jZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_4HYGoJLrEeajQpByLehgUQ" message="_rET-vZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8jpDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_4HYtsJLrEeajQpByLehgUQ" message="_rET-vZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rEQ8j5DXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" start="_rEQ8jpDXEeaqquCasSxMyA" finish="_rEQ8kJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rEQ8kJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" execution="_rEQ8j5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8kZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent14?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8kpDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-vpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_NswoMZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent14?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8kZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_6vdjMJLrEeajQpByLehgUQ" message="_rET-vpDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rEQ8kpDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_6veKQJLrEeajQpByLehgUQ" message="_rET-vpDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rETXoJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" start="_rEQ8kpDXEeaqquCasSxMyA" finish="_rETXoZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rETXoZDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" execution="_rETXoJDXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET-sJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" message="_rET-uZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET-sZDXEeaqquCasSxMyA" covered="_rEQ8hJDXEeaqquCasSxMyA" message="_rET-uZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET-sJDXEeaqquCasSxMyA" covered="_rEQ8hZDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET-uZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET-sZDXEeaqquCasSxMyA" covered="_rEQ8hJDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET-uZDXEeaqquCasSxMyA"/>
         <message xmi:id="_rET-spDXEeaqquCasSxMyA" name="modifierQuestion" receiveEvent="_rEQ8h5DXEeaqquCasSxMyA" sendEvent="_rEQ8hpDXEeaqquCasSxMyA" connector="_rEQ8fpDXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rET-s5DXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rET-tJDXEeaqquCasSxMyA" source="Parameter">
@@ -4092,39 +3817,23 @@
         </ownedConnector>
         <lifeline xmi:id="_rET_AJDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rET_ApDXEeaqquCasSxMyA _rET_DpDXEeaqquCasSxMyA"/>
         <lifeline xmi:id="_rET_AZDXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rET_A5DXEeaqquCasSxMyA _rET_BJDXEeaqquCasSxMyA _rET_DZDXEeaqquCasSxMyA _rET_BZDXEeaqquCasSxMyA _rET_BpDXEeaqquCasSxMyA _rET_B5DXEeaqquCasSxMyA _rET_CJDXEeaqquCasSxMyA _rET_CZDXEeaqquCasSxMyA _rET_CpDXEeaqquCasSxMyA _rET_C5DXEeaqquCasSxMyA _rET_DJDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_ApDXEeaqquCasSxMyA" covered="_rET_AJDXEeaqquCasSxMyA" message="_rET_D5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_A5DXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_D5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_ApDXEeaqquCasSxMyA" covered="_rET_AJDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET_D5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_A5DXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET_D5DXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rET_BJDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" start="_rET_A5DXEeaqquCasSxMyA" finish="_rET_DZDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_BZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_GZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKnbkJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent12?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_BpDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_GZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKoCoJAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent12?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_BZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_3EhigJLrEeajQpByLehgUQ" message="_rET_GZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_BpDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_3EjXsJLrEeajQpByLehgUQ" message="_rET_GZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rET_B5DXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" start="_rET_BpDXEeaqquCasSxMyA" finish="_rET_CJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rET_CJDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" execution="_rET_B5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_CZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_GpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10JAOEeaUX-YH4ATojA?Analyse/SendOperationEvent13?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_CpDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_GpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_MnH10ZAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent13?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_CZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_4HYGoJLrEeajQpByLehgUQ" message="_rET_GpDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_CpDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_4HYtsJLrEeajQpByLehgUQ" message="_rET_GpDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rET_C5DXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" start="_rET_CpDXEeaqquCasSxMyA" finish="_rET_DJDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rET_DJDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" execution="_rET_C5DXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_DZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" message="_rET_FpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_DpDXEeaqquCasSxMyA" covered="_rET_AJDXEeaqquCasSxMyA" message="_rET_FpDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_DZDXEeaqquCasSxMyA" covered="_rET_AZDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET_FpDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_DpDXEeaqquCasSxMyA" covered="_rET_AJDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET_FpDXEeaqquCasSxMyA"/>
         <message xmi:id="_rET_D5DXEeaqquCasSxMyA" name="modifierQuestion" receiveEvent="_rET_A5DXEeaqquCasSxMyA" sendEvent="_rET_ApDXEeaqquCasSxMyA" connector="_rET--pDXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rET_EJDXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rET_EZDXEeaqquCasSxMyA" source="Parameter">
@@ -4235,29 +3944,17 @@
         </ownedConnector>
         <lifeline xmi:id="_rET_UpDXEeaqquCasSxMyA" name="enseignant" represents="_rET_aJDXEeaqquCasSxMyA" coveredBy="_rET_VJDXEeaqquCasSxMyA _rET_XJDXEeaqquCasSxMyA"/>
         <lifeline xmi:id="_rET_U5DXEeaqquCasSxMyA" name="System" represents="_rET_aZDXEeaqquCasSxMyA" coveredBy="_rET_VZDXEeaqquCasSxMyA _rET_VpDXEeaqquCasSxMyA _rET_W5DXEeaqquCasSxMyA _rET_V5DXEeaqquCasSxMyA _rET_WJDXEeaqquCasSxMyA _rET_WZDXEeaqquCasSxMyA _rET_WpDXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_VJDXEeaqquCasSxMyA" covered="_rET_UpDXEeaqquCasSxMyA" message="_rET_XZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_VZDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" message="_rET_XZDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_VJDXEeaqquCasSxMyA" covered="_rET_UpDXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET_XZDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_VZDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET_XZDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rET_VpDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" start="_rET_VZDXEeaqquCasSxMyA" finish="_rET_W5DXEeaqquCasSxMyA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_V5DXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" message="_rET_Z5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKnbkJAOEeaUX-YH4ATojA?Analyse/SendOperationEvent12?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_WJDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" message="_rET_Z5DXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_LKoCoJAOEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent12?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_V5DXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" event="_3EhigJLrEeajQpByLehgUQ" message="_rET_Z5DXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_WJDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" event="_3EjXsJLrEeajQpByLehgUQ" message="_rET_Z5DXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rET_WZDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" start="_rET_WJDXEeaqquCasSxMyA" finish="_rET_WpDXEeaqquCasSxMyA"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_rET_WpDXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" execution="_rET_WZDXEeaqquCasSxMyA">
           <event xmi:type="uml:ExecutionEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_SDJssI55Eeaiq7DFp4zTpA?Analyse/ExecutionEvent1?"/>
         </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_W5DXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" message="_rET_ZJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:SendOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAtdUZAMEeaUX-YH4ATojA?Analyse/SendOperationEvent9?"/>
-        </fragment>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_XJDXEeaqquCasSxMyA" covered="_rET_UpDXEeaqquCasSxMyA" message="_rET_ZJDXEeaqquCasSxMyA">
-          <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/myECours_rocket/Analyse.emx#_kAuEYJAMEeaUX-YH4ATojA?Analyse/ReceiveOperationEvent9?"/>
-        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_W5DXEeaqquCasSxMyA" covered="_rET_U5DXEeaqquCasSxMyA" event="_1q-VoJLrEeajQpByLehgUQ" message="_rET_ZJDXEeaqquCasSxMyA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rET_XJDXEeaqquCasSxMyA" covered="_rET_UpDXEeaqquCasSxMyA" event="_1q-8sJLrEeajQpByLehgUQ" message="_rET_ZJDXEeaqquCasSxMyA"/>
         <message xmi:id="_rET_XZDXEeaqquCasSxMyA" name="modifierQuestion" receiveEvent="_rET_VZDXEeaqquCasSxMyA" sendEvent="_rET_VJDXEeaqquCasSxMyA" connector="_rET_TJDXEeaqquCasSxMyA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_rET_XpDXEeaqquCasSxMyA">
             <eAnnotations xmi:id="_rET_X5DXEeaqquCasSxMyA" source="Parameter">
@@ -4296,6 +3993,90 @@
       <ownedAttribute xmi:id="_rET_aZDXEeaqquCasSxMyA" name="System">
         <type xmi:type="uml:Class" href="metier.emx#_IaQNQI7QEeaaUM0Gc0WNDg?Metier/eCours?"/>
       </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_1q-VoJLrEeajQpByLehgUQ" name="SendOperationEvent19">
+      <operation href="metier.emx#_sRsUppDTEeaqquCasSxMyA?Metier/eCours/modifierQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_1q-8sJLrEeajQpByLehgUQ" name="ReceiveOperationEvent19">
+      <operation href="metier.emx#_sRsUppDTEeaqquCasSxMyA?Metier/eCours/modifierQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_3EhigJLrEeajQpByLehgUQ" name="SendOperationEvent20">
+      <operation href="metier.emx#_sRs7tJDTEeaqquCasSxMyA?Metier/eCours/vérifierTexteQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_3EjXsJLrEeajQpByLehgUQ" name="ReceiveOperationEvent20">
+      <operation href="metier.emx#_sRs7tJDTEeaqquCasSxMyA?Metier/eCours/vérifierTexteQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_4HYGoJLrEeajQpByLehgUQ" name="SendOperationEvent21">
+      <operation href="metier.emx#_sRtiwJDTEeaqquCasSxMyA?Metier/eCours/vérifierNbProposition?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_4HYtsJLrEeajQpByLehgUQ" name="ReceiveOperationEvent21">
+      <operation href="metier.emx#_sRtiwJDTEeaqquCasSxMyA?Metier/eCours/vérifierNbProposition?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_6vdjMJLrEeajQpByLehgUQ" name="SendOperationEvent22">
+      <operation href="metier.emx#_sRtiwZDTEeaqquCasSxMyA?Metier/eCours/vérifierFormatPropositions?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_6veKQJLrEeajQpByLehgUQ" name="ReceiveOperationEvent22">
+      <operation href="metier.emx#_sRtiwZDTEeaqquCasSxMyA?Metier/eCours/vérifierFormatPropositions?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AI-lkJLsEeajQpByLehgUQ" name="SendOperationEvent23">
+      <operation href="metier.emx#_sRs7sJDTEeaqquCasSxMyA?Metier/eCours/supprimerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AI-lkZLsEeajQpByLehgUQ" name="ReceiveOperationEvent23">
+      <operation href="metier.emx#_sRs7sJDTEeaqquCasSxMyA?Metier/eCours/supprimerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_RKqk8JLsEeajQpByLehgUQ" name="SendOperationEvent24">
+      <operation href="metier.emx#_sRsUoJDTEeaqquCasSxMyA?Metier/eCours/créerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_RK3ZQJLsEeajQpByLehgUQ" name="ReceiveOperationEvent24">
+      <operation href="metier.emx#_sRsUoJDTEeaqquCasSxMyA?Metier/eCours/créerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_YKwjkJLsEeajQpByLehgUQ" name="SendOperationEvent25">
+      <operation href="metier.emx#_sRqfcJDTEeaqquCasSxMyA?Metier/eCours/passerQcm?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_YKwjkZLsEeajQpByLehgUQ" name="ReceiveOperationEvent25">
+      <operation href="metier.emx#_sRqfcJDTEeaqquCasSxMyA?Metier/eCours/passerQcm?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ZI94QJLsEeajQpByLehgUQ" name="SendOperationEvent26">
+      <operation href="metier.emx#_sRrtkJDTEeaqquCasSxMyA?Metier/eCours/répondreQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ZI-fUJLsEeajQpByLehgUQ" name="ReceiveOperationEvent26">
+      <operation href="metier.emx#_sRrtkJDTEeaqquCasSxMyA?Metier/eCours/répondreQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_bRtGYJLsEeajQpByLehgUQ" name="SendOperationEvent27">
+      <operation href="metier.emx#_sRrGgJDTEeaqquCasSxMyA?Metier/eCours/vérifierChapitres?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_bRu7kJLsEeajQpByLehgUQ" name="ReceiveOperationEvent27">
+      <operation href="metier.emx#_sRrGgJDTEeaqquCasSxMyA?Metier/eCours/vérifierChapitres?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_cJpbAJLsEeajQpByLehgUQ" name="SendOperationEvent28">
+      <operation href="metier.emx#_sRrGgZDTEeaqquCasSxMyA?Metier/eCours/vérifierNbQuestions?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_cJpbAZLsEeajQpByLehgUQ" name="ReceiveOperationEvent28">
+      <operation href="metier.emx#_sRrGgZDTEeaqquCasSxMyA?Metier/eCours/vérifierNbQuestions?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_c3xsUJLsEeajQpByLehgUQ" name="SendOperationEvent29">
+      <operation href="metier.emx#_sRrtlpDTEeaqquCasSxMyA?Metier/eCours/générerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_c3xsUZLsEeajQpByLehgUQ" name="ReceiveOperationEvent29">
+      <operation href="metier.emx#_sRrtlpDTEeaqquCasSxMyA?Metier/eCours/générerQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_d8mmYJLsEeajQpByLehgUQ" name="SendOperationEvent30">
+      <operation href="metier.emx#_sRrtlJDTEeaqquCasSxMyA?Metier/eCours/vérifierRéponseQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_d8mmYZLsEeajQpByLehgUQ" name="ReceiveOperationEvent30">
+      <operation href="metier.emx#_sRrtlJDTEeaqquCasSxMyA?Metier/eCours/vérifierRéponseQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_fXXUMJLsEeajQpByLehgUQ" name="SendOperationEvent31">
+      <operation href="metier.emx#_sRrtlZDTEeaqquCasSxMyA?Metier/eCours/afficherRésultatQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_fXX7QJLsEeajQpByLehgUQ" name="ReceiveOperationEvent31">
+      <operation href="metier.emx#_sRrtlZDTEeaqquCasSxMyA?Metier/eCours/afficherRésultatQuestion?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_hW14oJLsEeajQpByLehgUQ" name="SendOperationEvent32">
+      <operation href="metier.emx#_sRs7s5DTEeaqquCasSxMyA?Metier/eCours/afficherRésultatQcm?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_hW2fsJLsEeajQpByLehgUQ" name="ReceiveOperationEvent32">
+      <operation href="metier.emx#_sRs7s5DTEeaqquCasSxMyA?Metier/eCours/afficherRésultatQcm?"/>
     </packagedElement>
     <profileApplication xmi:id="_rk8Z5YPOEea5Fukr80y7eA">
       <eAnnotations xmi:id="_rk8Z5oPOEea5Fukr80y7eA" source="http://www.eclipse.org/uml2/2.0.0/UML">

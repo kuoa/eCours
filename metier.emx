@@ -827,7 +827,66 @@
     <ownedOperation xmi:id="_sRtiwpDTEeaqquCasSxMyA" name="afficherConfirmationCréationQuestion" visibility="private"/>
     <ownedOperation xmi:id="_sRtiw5DTEeaqquCasSxMyA" name="afficherConfirmationModificationQuestion" visibility="private"/>
     <ownedOperation xmi:id="_sRuJ0JDTEeaqquCasSxMyA" name="afficherConfirmationSuppressionQuestion" visibility="private"/>
+    <ownedOperation xmi:id="_jxRPsJMYEealrZd7yrUC2g" name="auth">
+      <ownedParameter xmi:id="_ug40EJMYEealrZd7yrUC2g" name="login">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yoAacJMYEealrZd7yrUC2g" name="mdp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_5jcikJMYEealrZd7yrUC2g" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_aLADkJMZEealrZd7yrUC2g" name="verifierEnseignant">
+      <ownedParameter xmi:id="_jvBXgJMZEealrZd7yrUC2g" name="login">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_llETIJMZEealrZd7yrUC2g" name="mdp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_tXXKwJMZEealrZd7yrUC2g" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_YKeg0JMaEealrZd7yrUC2g" name="créerCommentaire">
+      <ownedParameter xmi:id="_krw3IJMaEealrZd7yrUC2g" name="Parameter1" type="_hvFqoJMaEealrZd7yrUC2g" direction="return"/>
+      <ownedParameter xmi:id="_moqosJMaEealrZd7yrUC2g" name="page">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_rGrsIJMaEealrZd7yrUC2g" name="auteur">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_tLUdYJMaEealrZd7yrUC2g" name="corps">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_vLlE8JMaEealrZd7yrUC2g" name="isEnseignant">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_zeEN0JMaEealrZd7yrUC2g" name="genererCaptcha" visibility="private">
+      <ownedParameter xmi:id="_1aCyUJMaEealrZd7yrUC2g" name="Parameter1" type="_hvFqoJMaEealrZd7yrUC2g" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_axg_EJMbEealrZd7yrUC2g" name="resoudreCaptcha">
+      <ownedParameter xmi:id="_cVi9oJMbEealrZd7yrUC2g" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_d4W0MJMbEealrZd7yrUC2g" name="captcha" type="_hvFqoJMaEealrZd7yrUC2g"/>
+      <ownedParameter xmi:id="_grjUkJMbEealrZd7yrUC2g" name="code">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_kI_r0JMbEealrZd7yrUC2g" name="verifierCaptcha" visibility="private">
+      <ownedParameter xmi:id="_lMcF0JMbEealrZd7yrUC2g" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_mzSH0JMbEealrZd7yrUC2g" name="captcha" type="_hvFqoJMaEealrZd7yrUC2g"/>
+      <ownedParameter xmi:id="_oT17oJMbEealrZd7yrUC2g" name="code">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hvFqoJMaEealrZd7yrUC2g" name="Captcha"/>
   <profileApplication xmi:id="_VIRQ5IlSEeaSwdPzH00ZkQ">
     <eAnnotations xmi:id="_VIRQ5YlSEeaSwdPzH00ZkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>

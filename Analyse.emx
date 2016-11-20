@@ -3119,7 +3119,7 @@
               <references xmi:type="uml:Parameter" href="platform:/resource/myECours_rocket/metier.emx#_d7GScI52Eeaiq7DFp4zTpA?metier/eCours/passerQcm/titreChapitres?"/>
             </eAnnotations>
             <language></language>
-            <body>&quot;Analyse,Conception&quot;</body>
+            <body>&quot;&quot;</body>
           </argument>
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_Btu1D5DTEeaqquCasSxMyA">
             <eAnnotations xmi:id="_Btu1EJDTEeaqquCasSxMyA" source="Parameter">

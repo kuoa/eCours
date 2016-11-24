@@ -2621,7 +2621,7 @@
         <message xmi:id="_lqPns5CgEeaLNP_-wukhBA" name="editerNomUE" messageSort="reply" receiveEvent="_lqOZkJCgEeaLNP_-wukhBA" sendEvent="_lqNygJCgEeaLNP_-wukhBA" connector="_lqSrAJCgEeaLNP_-wukhBA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_lqPntJCgEeaLNP_-wukhBA">
             <eAnnotations xmi:id="_lqPntZCgEeaLNP_-wukhBA" source="Parameter">
-              <references xmi:type="uml:Parameter" href="Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
+              <references xmi:type="uml:Parameter" href="platform:/resource/eCours_rocket__/Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
             </eAnnotations>
             <language></language>
             <body>&quot;IL&quot;</body>
@@ -2646,7 +2646,7 @@
         <message xmi:id="_lqRc45CgEeaLNP_-wukhBA" name="editerNomUE" receiveEvent="_lqGdwJCgEeaLNP_-wukhBA" sendEvent="_lqF2sJCgEeaLNP_-wukhBA" connector="_lqSrAJCgEeaLNP_-wukhBA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_lqRc5JCgEeaLNP_-wukhBA">
             <eAnnotations xmi:id="_lqRc5ZCgEeaLNP_-wukhBA" source="Parameter">
-              <references xmi:type="uml:Parameter" href="Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
+              <references xmi:type="uml:Parameter" href="platform:/resource/eCours_rocket__/Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
             </eAnnotations>
             <language></language>
             <body>&quot;IL&quot;</body>
@@ -2845,7 +2845,7 @@
         <message xmi:id="_pUwZUJCaEeaLNP_-wukhBA" name="editerNomUE" receiveEvent="_pUyOgJCaEeaLNP_-wukhBA" sendEvent="_pUxncJCaEeaLNP_-wukhBA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_KEKZUJCcEeaLNP_-wukhBA">
             <eAnnotations xmi:id="_KELAYJCcEeaLNP_-wukhBA" source="Parameter">
-              <references xmi:type="uml:Parameter" href="Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
+              <references xmi:type="uml:Parameter" href="platform:/resource/eCours_rocket__/Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
             </eAnnotations>
             <language></language>
             <body>&quot;IL&quot;</body>
@@ -2854,7 +2854,7 @@
         <message xmi:id="_pU0qwJCaEeaLNP_-wukhBA" name="editerNomUE" messageSort="reply" receiveEvent="_pU1R0JCaEeaLNP_-wukhBA" sendEvent="_pUzcoJCaEeaLNP_-wukhBA">
           <argument xmi:type="uml:OpaqueExpression" xmi:id="_AnLPkJCeEeaLNP_-wukhBA">
             <eAnnotations xmi:id="_AnLPkZCeEeaLNP_-wukhBA" source="Parameter">
-              <references xmi:type="uml:Parameter" href="Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
+              <references xmi:type="uml:Parameter" href="platform:/resource/eCours_rocket__/Conception.emx#_Htzl8JCcEeaLNP_-wukhBA?Conception/Metier/interfaces/IGestionCours/editerNomUE/nom?"/>
             </eAnnotations>
             <language></language>
             <body>&quot;IL&quot;</body>
